@@ -30,7 +30,7 @@ namespace AluguelDeCarros
                         string nome = Console.ReadLine();
 
                         Console.Write("Placa: (YYY1234)");
-                        string placa = Console.ReadLine().ToUpper();
+                        string placa = Console.ReadLine().ToLower();
 
                         Console.Write("Marca: ");
                         string marca = Console.ReadLine();
@@ -45,7 +45,7 @@ namespace AluguelDeCarros
                         break;
 
                     case 2:
-
+                        Console.Clear();
                         garagem.ExibirCarros();
                         break;
 
